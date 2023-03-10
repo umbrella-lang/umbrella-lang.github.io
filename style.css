@@ -92,7 +92,7 @@ article ol, article ul {
 
 .column {
     margin: 0 auto;
-    max-width: 60%;
+    max-width: max(60%, 350px);
 }
 
 #column-container {
