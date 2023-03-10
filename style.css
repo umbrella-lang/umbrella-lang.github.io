@@ -1,0 +1,114 @@
+/* this CSS inspired by https://wren.io/ and http://journal.stuffwithstuff.com/ */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, code, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; */
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+header h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font: 48px Georgia, serif;
+    font-weight: 600;
+    padding-top: 56px;
+    padding-bottom: 8px;
+}
+
+header sub {
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: left;
+    font: 22px "ASAP", Georgia, serif;
+    font-weight: 600;
+    color: #c2d368;
+    font-style: italic;
+}
+
+header h1 a {
+    color: #4e584a;
+}
+header h1 a:hover {
+    color: #d3a068;
+}
+
+p {
+    padding: 8px 0;
+}
+
+h2 {
+    padding: 24px 0 12px 0;
+    font-weight: 700;
+}
+
+h3 {
+    padding: 24px 0 12px 0;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #b45252;
+}
+
+a:hover {
+    color: #d3a068;
+}
+
+body {
+    color: #212123;
+    background-color: #4e584a;
+    font: 16px/24px "PT Serif", Georgia, serif;
+}
+
+article {
+    background-color: #fff;
+    padding: 48px;
+}
+
+article ol, article ul {
+    margin-left: 24px;
+}
+
+#info {
+    font: 14px Georgia, serif;
+    color: #b2b47e;
+    border-bottom: solid 1px #b2b47e;
+    margin-bottom: 8px;
+    padding: 2px;
+}
+
+.column {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+#column-container {
+    margin: 0 auto;
+    max-width: 1100px;
+    background-color: #b2b47e;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #fff;
+    padding: 12px 48px 12px 48px;
+}
+
+.date-item {
+    color: #b2b47e; 
+    font-size: small; 
+    float: right;
+}
